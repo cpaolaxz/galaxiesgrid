@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(18, 18, 20, 1);
+    padding: 80px 104px;
+}
+body header p{
+
+    color: aliceblue;
+    font-size: 26px;
+    margin-bottom: 45px;
+}
+
+header h1{
+    font-size: 50px;
+    color: rgba(2, 121, 157, 1);
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    row-gap: 48px ;
+    column-gap: 60px;
+}
+.card{
+    padding: 0px 0px 32px;
+    background: rgba(82, 82, 82, 1);
+    border: 2px solid rgb(31, 29, 29);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 80px;
+}
+
+.card h2{
+    color: rgba(225, 225, 230, 1);
+    font-weight: 900;
+    font-size: 36px;
+    padding: 24px 32px 0 ;
+}
+
+.card p{
+    color: rgba(196, 196, 204, 1);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 24px 32px 2px;
+}
